@@ -28,8 +28,8 @@ public class SubstratumLauncher extends Activity {
     //
     // TODO: Themers, this is your FIRST step
     // UNIVERSAL SWITCH: Control whether Anti-Piracy should be activated while testing
-   // private static final boolean ENABLE_ANTI_PIRACY = BuildConfig.ENABLE_ANTI_PIRACY;
-      private static final boolean ENABLE_ANTI_PIRACY = false;
+    private static final boolean ENABLE_ANTI_PIRACY = BuildConfig.ENABLE_ANTI_PIRACY;
+    // private static final boolean ENABLE_ANTI_PIRACY = false;
     // In order to retrieve your BASE64 license key your app must be uploaded to
     // Play Developer Console. Then access to your app -> Services and APIs.
     // You will need to replace "" with the code you obtained from the Play Developer Console.
@@ -58,7 +58,7 @@ public class SubstratumLauncher extends Activity {
                 // TODO: Themers, this is your FINAL step
                 // To disable certain piracy features, comment it out so that it doesn't
                 // trigger anti-piracy.
-                .enableInstallerId(InstallerID.GOOGLE_PLAY)
+                //.enableInstallerId(InstallerID.GOOGLE_PLAY)
                 //.enableInstallerId(InstallerID.AMAZON_APP_STORE)
                 // END OF THEMER TOUCHABLE OPTIONS
                 // TO RETAIN INTEGRITY, PLEASE DO NOT MODIFY ANY OTHER LINES
