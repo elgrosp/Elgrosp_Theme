@@ -11,7 +11,7 @@
 1. <s>Create a GitHub account.</s>
 2. <s>Figure out how GitHub works.</s>
 3. <s>Figure out how Markdown works.</s>
-4. Make basic editing based on the template.
+4. <s>Make basic editing based on the template.</s>
 5. Actually make something viable.
 6. ???
 7. Profit.
